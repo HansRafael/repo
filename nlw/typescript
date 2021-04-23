@@ -1,0 +1,15 @@
+interface datesUser {
+    id: string,nome: string,email:string
+}
+
+// qndo usamos {}, conseguimos desestruturar o código
+function createUser( {id,nome,email} : datesUser){
+    console.log(id,nome,email)
+}
+
+
+class createADM {
+    cadastro(): void{
+        createUser("123adasd","hans","hans.rafa@gmail.br");
+    }
+}
